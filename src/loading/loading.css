@@ -1,0 +1,32 @@
+/* //===================//LOADING_STYLING//====================// */
+
+.loading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+
+}
+
+.loading-container h4,
+.nd-line h4{
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.nd-line{
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+   gap: 5px;
+   text-align: left;
+}
+
+.nd-line img{
+    max-width: 70px;
+    /* margin-bottom: 20px; */
+}
