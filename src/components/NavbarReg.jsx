@@ -1,5 +1,5 @@
 // import React from 'react'
-import Logo from '../assets/image/removebg.png'
+import Logo from '../assets/image/Removebg.png'
 
 function NavbarReg() {
 
