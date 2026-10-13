@@ -148,10 +148,10 @@ function Upload() {
 
   const [error, setError] = useState("")
 
-  const apiKey = import.meta.env.VITE_REMOVE_BG_API_KEY;
+  // const apiKey = import.meta.env.VITE_REMOVE_BG_API_KEY;
 
-  console.log(apiKey);
-  console.log(image)
+  // console.log(apiKey);
+  // console.log(image)
 
   //API Handling Best Practice
 
@@ -171,12 +171,13 @@ function Upload() {
       console.log([...formData.entries()])
 
       const response = await fetch(
-        "https://api.remove.bg/v1.0/removebg",
+        // "https://api.remove.bg/v1.0/removebg",
+        "/api/remove-bg",
         {
           method: "POST",
-          headers: {
-            "X-Api-Key": apiKey,
-          },
+          // headers: {
+          //   "X-Api-Key": apiKey,
+          // },
           body: formData
         }
       )
